@@ -1,16 +1,22 @@
 {
-  "name": "redux-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "redux-toDoList2",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
   "dependencies": {
     "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "create-react-app": "^1.0.3",
     "react-redux": "^5.0.2",
     "redux": "^3.6.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
